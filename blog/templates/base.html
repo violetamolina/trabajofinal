@@ -4,7 +4,6 @@
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta http-equiv="X-UA-Compatible" content="ie=edge">
-      <title>{% block title %}Simple blog{% endblock %}</title>
       {% load bootstrap4 %}
       {% bootstrap_css %}
       {% load static %}
@@ -14,7 +13,7 @@
       <!-- Navigation -->
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
          <div class="container">
-            <a class="navbar-brand" href="{% url 'posts:blog' %}">Simple Blog</a>
+            <a class="navbar-brand" href="{% url 'posts:blog' %}">17 ODS</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
@@ -26,7 +25,7 @@
                      </a>
                   </li>
                   <li class="nav-item">
-                     <a class="nav-link" href="{% url 'about' %}">Sobre mi</a>
+                     <a class="nav-link" href="{% url 'about' %}">Foro</a>
                   </li>
                   {% if user.is_authenticated %}
                   <li class="nav-item dropdown">
@@ -54,7 +53,24 @@
          <div class="col-md-4">
             <!-- Categories Widget -->
             <div class="card my-4">
-               <h5 class="card-header">Categories</h5>
+               <h5 class="card-header">Categorias</h5>
+                  <li>1. Fin de la pobreza</li>
+                  <li>2. Hambre cero</li>
+                  <li>3. Salud y Bienestar</li>
+                  <li>4. Educación de Calidad</li>
+                  <li>5. Igualdad de Género</li>
+                  <li>6. Agua limpia y saneamiento</li>
+                  <li>7. Energía asequible y no contaminante</li>
+                  <li>8. Trabajo decente y crecimiento económico</li>
+                  <li>9. Industria, Innovación e Infraestructura</li>
+                  <li>10. Reducción de los Desigualdades</li>
+                  <li>11. Ciudades y comunidades sostenibles</li>
+                  <li>12. Producción y Consumo Responsables</li>
+                  <li>13. Acción por el Clima</li>
+                  <li>14. Vida submarina</li>
+                  <li>15. Vida de ecosistemas terrestres</li>
+                  <li>16. Paz, justicia e instituciones sólidas</li>
+                  <li>17. Alianzas para lograr los objetivos</li>
                <div class="card-body">
                   <div class="row">
                      <div class="col-lg-12">
@@ -71,9 +87,8 @@
             </div>
             <!-- Side Widget -->
             <div class="card my-4">
-               <h5 class="card-header">Side Widget</h5>
+               <h5 class="card-header">Novedades</h5>
                <div class="card-body">
-                  You can put anything you want inside of these side widgets. They are easy to use, and feature the new Bootstrap 4 card containers!
                </div>
             </div>
          </div>
@@ -81,7 +96,7 @@
       <!-- Footer -->
       <footer class="py-5 bg-dark">
          <div class="container">
-            <p class="m-0 text-center text-white">Copyright &copy; Simple Blog {% now "Y" %}</p>
+            <p class="m-0 text-center text-white">Blas, tu mamá por las dudas {% now "Y" %}</p>
          </div>
          <!-- /.container -->
       </footer>

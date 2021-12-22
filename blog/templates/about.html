@@ -1,20 +1,52 @@
 {% extends "base.html" %}
-{% block title %}Simple blog - Sobre mi{% endblock %}
+{% block title %}Simple blog - Foro{% endblock %}
 {% block content %}
   <div class="container">
     <div class="row">
       <div class="col-lg-8">
-        <h1 class="mt-4">Sobre mi</h1>
+        <h1>17 ODS</h1>
         <hr>
         <img class="img-fluid rounded" src="http://placehold.it/150x200" alt="">
         <hr>
-        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, vero, obcaecati, aut, error quam sapiente nemo saepe quibusdam sit excepturi nam quia corporis eligendi eos magni recusandae laborum minus inventore?</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, tenetur natus doloremque laborum quos iste ipsum rerum obcaecati impedit odit illo dolorum ab tempora nihil dicta earum fugiat. Temporibus, voluptatibus.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, doloribus, dolorem iusto blanditiis unde eius illum consequuntur neque dicta incidunt ullam ea hic porro optio ratione repellat perspiciatis. Enim, iure!</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, doloribus, dolorem iusto blanditiis unde eius illum consequuntur neque dicta incidunt ullam ea hic porro optio ratione repellat perspiciatis. Enim, iure!</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, doloribus, dolorem iusto blanditiis unde eius illum consequuntur neque dicta incidunt ullam ea hic porro optio ratione repellat perspiciatis. Enim, iure!</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, nostrum, aliquid, animi, ut quas placeat totam sunt tempora commodi nihil ullam alias modi dicta saepe minima ab quo voluptatem obcaecati?</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, dolor quis. Sunt, ut, explicabo, aliquam tenetur ratione tempore quidem voluptates cupiditate voluptas illo saepe quaerat numquam recusandae? Qui, necessitatibus, est!</p>
+        <p class="lead">Ni racismo ni chistes negros (fuertes)</p>
+        <section class="textito">
+          <form>
+              
+                  <fieldset>
+                  <legend class="opi">Deja tu opinion aqui!</legend>
+                  
+                  <div class="form-group">
+                      <label for="exampleInputEmail1" class="form-label mt-4">Usuario</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Usuario">
+                      <small id="emailHelp" class="form-text text-muted">No compartas datos sensibles con terceros.</small>
+                  </div>
+                  <div class="form-group">
+                      <label for="exampleInputPassword1" class="form-label mt-4">Contraseña</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Contraseña">
+                      
+                      
+                  </div>
+                  
+                  
+                  <div class="form-group">
+                      <label for="exampleTextarea" class="form-label mt-4">Comentario</label>
+                      <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+                      <small id="emailHelp" class="form-text text-muted">Debes estar logueado para comentar.</small>
+                  </div>
+                  <div class="form-group">
+                      <label for="formFile" class="form-label mt-4"></label>
+                      <input class="form-control" type="file" id="formFile">
+                  </div>
+                  
+                  
+                  <div class="comen">
+                      <br>
+                      <button type="submit" class="btn btn-primary" id="comen">Comentar</button>
+                      
+                  </div>  
+                  </fieldset>
+          </form>
+      </section> <br>   
         <hr>
       </div>
 {% endblock %}
